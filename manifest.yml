@@ -1,0 +1,6 @@
+---
+applications:
+- name: hello-tknm
+  buildpack: python_buildpack
+  memory: 32MB
+  command: python index.py
